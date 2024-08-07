@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "drf-course-work"
+version = "0.1.0"
+description = ""
+authors = ["DarkhanDaurenov <takishevdarkhan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.8"
+setuptools = "^72.1.0"
+djangorestframework = "^3.15.2"
+drf-yasg = "^1.21.7"
+celery = "^5.4.0"
+telegram = "^0.0.1"
+python-telegram-bot = "^21.4"
+django-cors-headers = "^4.4.0"
+django-celery-beat = "^2.6.0"
+redis = "^5.0.8"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
